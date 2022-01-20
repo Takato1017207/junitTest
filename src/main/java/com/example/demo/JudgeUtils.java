@@ -66,7 +66,7 @@ public class JudgeUtils extends MiraiPrjApplication {
 
 		// 判定処理開始
 		// 比較用年月日よりあとの生年月日なら不可
-		if (birthCal.compareTo(compareCal) > AGE) {
+		if (birthCal.compareTo(compareCal) > 0) {
 			return false;
 		}
 		return true;
